@@ -1,0 +1,23 @@
+img {
+    width: 100px;
+}
+
+.offcanvas {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.nav-link {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: red;
+}

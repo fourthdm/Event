@@ -1,0 +1,78 @@
+<!-- <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand"><img src="/assets/Sobhagya BNI Logo.jpg" alt=""></a>
+        <form class="d-flex" role="search">
+            <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                aria-controls="offcanvasTop">
+                <span class="navbar-toggler-icon"></span></button>
+
+            <div class="offcanvas  offcanvas-top text-bg-dark" tabindex="-1" id="offcanvasTop"
+                aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasTopLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+                        style="color: white;"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul>
+                        <li [routerLink]="['/home']">
+                            <h1>Home</h1>
+                        </li>
+                        <li [routerLink]="['/about']">
+                            <h1>About Us</h1>
+                        </li>
+                        <li [routerLink]="['/projectshowcase']">
+                            <h1>Project Showcase</h1>
+                        </li>
+                        <li [routerLink]="['/gallery']">
+                            <h1>Gallery</h1>
+                        </li>
+                        <li [routerLink]="['/contact']">
+                            <h1>Connect Now</h1>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>
+</nav>
+ -->
+
+<nav class="navbar  fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/assets/Sobhagya BNI Logo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon" style="color: white;font-size: larger;"></span>
+        </button>
+        <div class="offcanvas offcanvas-md offcanvas-top offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3" (click)="closeNavbar()">
+
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="" [routerLink]="['/home']">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" [routerLink]="['/about']">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" [routerLink]="['/gallery']">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" [routerLink]="['/projectshowcase']">ProjectShowcase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" [routerLink]="['/contact']">Connect Now</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</nav>

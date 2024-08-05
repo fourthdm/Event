@@ -1,0 +1,32 @@
+.main {
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.list {
+    padding: 2%;
+    font-size: 20px;
+}
+
+.iconi {
+    font-size: 50px;
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 2;
+}
+
+.facebook {
+    font-size: 50px;
+    color: #0f51ad;
+    z-index: 2;
+}
+
+.phone{
+    font-size: 50px;
+    color: rgba(23,176,244,255);
+}
